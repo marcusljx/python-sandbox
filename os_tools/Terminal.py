@@ -1,4 +1,13 @@
-""" Emulates the terminal
+""" Sandbox :: Terminal
+
+Description:
+    Class for emulating the terminal
+
+Author:
+    marcusljx
+
+Created:
+    2016-04-28
 """
 import subprocess
 import logging
