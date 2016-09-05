@@ -1,3 +1,14 @@
+""" Sandbox :: _common
+
+Description:
+    Common module containing functions for general usage
+
+Author:
+    marcusljx
+
+Created:
+    2016-09-05
+"""
 import datetime
 import os
 import random
