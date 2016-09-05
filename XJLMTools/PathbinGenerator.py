@@ -9,8 +9,6 @@ Author:
 Created:
     2016-06-24
 """
-from __future__ import print_function
-
 import argparse
 import os
 
