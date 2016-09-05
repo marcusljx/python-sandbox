@@ -1,6 +1,13 @@
-"""
-    Sandbox :: Corruptor
-        created by Marcus LJX on 2016-07-05
+""" Sandbox :: Corruptor
+
+Description:
+    Corruptor class/script that modifies a file in chunks based on a corruption ratio
+
+Author:
+    marcusljx
+
+Created:
+    2016-07-05
 """
 from __future__ import print_function
 
