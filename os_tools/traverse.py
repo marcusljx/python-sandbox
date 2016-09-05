@@ -1,7 +1,3 @@
-"""
-    Sandbox :: filesystem_commons
-        created by Marcus LJX on 2016-07-20
-"""
 """ Sandbox :: traverse
 
 Description:
