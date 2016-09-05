@@ -31,8 +31,6 @@ array([[ 0,  0,  1],
        [ 0,  0, 15],
        [ 0,  0, 16]])
 """
-from __future__ import print_function
-
 import numpy as np
 
 
