@@ -9,8 +9,8 @@ Author:
 Created:
     2016-04-28
 """
-import subprocess
 import logging
+import subprocess
 import sys
 
 import _common
@@ -31,6 +31,7 @@ class Terminal:
                     sys.stdout.write(line)
                     sys.stdout.flush()
                     self.logger.log(self.logger.level, line)
+                    yield line
             status = p.wait()
 
         except subprocess.CalledProcessError:
@@ -42,4 +43,4 @@ class Terminal:
             self.logger.error("Command not found: ", cmd)
             raise
 
-        return status
+        yield status
